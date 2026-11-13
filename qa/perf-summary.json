@@ -1,0 +1,147 @@
+{
+    "root_group": {
+        "name": "",
+        "path": "",
+        "id": "d41d8cd98f00b204e9800998ecf8427e",
+        "groups": {},
+        "checks": {
+            "status is 201": {
+                "name": "status is 201",
+                "path": "::status is 201",
+                "id": "ec8c9afd59577ad0eb26fbf150ecf791",
+                "passes": 1262,
+                "fails": 0
+            },
+            "response has transaction id": {
+                "name": "response has transaction id",
+                "path": "::response has transaction id",
+                "id": "ac2da48022884d259691ab7f2c5c0e3e",
+                "passes": 1262,
+                "fails": 0
+            }
+        }
+    },
+    "metrics": {
+        "iteration_duration": {
+            "avg": 532.8484963470682,
+            "min": 509.59783,
+            "med": 530.4988475,
+            "max": 651.194762,
+            "p(90)": 546.0435656,
+            "p(95)": 557.15728085
+        },
+        "checks": {
+            "fails": 0,
+            "passes": 2524,
+            "thresholds": {
+                "rate>0.99": false
+            },
+            "value": 1
+        },
+        "data_received": {
+            "count": 948870,
+            "rate": 15630.02509215784
+        },
+        "http_req_receiving": {
+            "p(90)": 0.2685382,
+            "p(95)": 0.31217395,
+            "avg": 0.18469820886075952,
+            "min": 0.046275,
+            "med": 0.1703365,
+            "max": 1.073386
+        },
+        "http_req_blocked": {
+            "p(90)": 0.0174744,
+            "p(95)": 0.031974499999999864,
+            "avg": 0.1450100775316457,
+            "min": 0.004536,
+            "med": 0.012698000000000001,
+            "max": 50.882048
+        },
+        "http_req_sending": {
+            "min": 0.015104,
+            "med": 0.058207,
+            "max": 1.943159,
+            "p(90)": 0.1187184,
+            "p(95)": 0.13558509999999993,
+            "avg": 0.07537444936708876
+        },
+        "http_reqs": {
+            "rate": 20.820925644701077,
+            "count": 1264
+        },
+        "http_req_connecting": {
+            "p(95)": 0,
+            "avg": 0.09576056012658225,
+            "min": 0,
+            "med": 0,
+            "max": 11.274237,
+            "p(90)": 0
+        },
+        "http_req_tls_handshaking": {
+            "avg": 0,
+            "min": 0,
+            "med": 0,
+            "max": 0,
+            "p(90)": 0,
+            "p(95)": 0
+        },
+        "http_req_failed": {
+            "passes": 0,
+            "fails": 1264,
+            "thresholds": {
+                "rate<0.01": false
+            },
+            "value": 0
+        },
+        "iterations": {
+            "count": 1262,
+            "rate": 20.7879811420987
+        },
+        "data_sent": {
+            "rate": 3894.023735349438,
+            "count": 236399
+        },
+        "vus_max": {
+            "min": 20,
+            "max": 20,
+            "value": 20
+        },
+        "http_req_duration{expected_response:true}": {
+            "avg": 31.68626744620258,
+            "min": 8.754661,
+            "med": 29.1095075,
+            "max": 155.684932,
+            "p(90)": 44.9129621,
+            "p(95)": 56.36899359999997
+        },
+        "vus": {
+            "value": 1,
+            "min": 1,
+            "max": 20
+        },
+        "http_req_duration": {
+            "p(95)": 56.36899359999997,
+            "avg": 31.68626744620258,
+            "min": 8.754661,
+            "med": 29.1095075,
+            "max": 155.684932,
+            "p(90)": 44.9129621,
+            "thresholds": {
+                "p(95)<500": false
+            }
+        },
+        "http_req_waiting": {
+            "avg": 31.426194787974623,
+            "min": 8.682698,
+            "med": 28.8091145,
+            "max": 153.207192,
+            "p(90)": 44.7043772,
+            "p(95)": 56.10399834999997
+        }
+    },
+    "setup_data": {
+        "userId": 36,
+        "productId": 29
+    }
+}

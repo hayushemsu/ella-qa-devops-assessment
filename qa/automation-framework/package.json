@@ -1,0 +1,18 @@
+{
+  "name": "ella-api-automation",
+  "version": "1.0.0",
+  "description": "Automated API tests for the Ella e-commerce API",
+  "scripts": {
+    "test": "jest --runInBand --verbose",
+    "test:flow": "jest --runInBand --verbose -t \"Critical flow\"",
+    "test:regression": "jest --runInBand --verbose -t \"Expected behaviour\""
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "supertest": "^7.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node",
+    "testTimeout": 15000
+  }
+}

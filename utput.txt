@@ -1,0 +1,30 @@
+warning: in the working copy of 'src/app.controller.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app.module.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/app.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/constants.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/main.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/products/dto/create-product.dto.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/products/dto/update-product.dto.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/products/entities/product.entity.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/products/products.controller.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/products/products.module.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/products/products.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/transactions/dto/create-transaction.dto.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/transactions/dto/update-transaction.dto.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/transactions/entities/transaction.entity.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/transactions/transactions.controller.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/transactions/transactions.module.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/transactions/transactions.service.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/users/dto/create-user.dto.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/users/dto/update-user.dto.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/users/entities/user.entity.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/users/users.controller.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/users/users.module.ts', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of 'src/users/users.service.ts', LF will be replaced by CRLF the next time Git touches it
+ docker-compose.dev.yml                   | 2 [32m+[m[31m-[m
+ docker-compose.yml                       | 2 [32m+[m[31m-[m
+ src/products/entities/product.entity.ts  | 1 [31m-[m
+ src/transactions/transactions.module.ts  | 1 [31m-[m
+ src/transactions/transactions.service.ts | 6 [32m+++++[m[31m-[m
+ src/users/users.service.ts               | 2 [32m+[m[31m-[m
+ 6 files changed, 8 insertions(+), 6 deletions(-)
